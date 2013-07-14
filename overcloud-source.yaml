@@ -109,7 +109,7 @@ Resources:
         compute_driver: libvirt.LibvirtDriver
         db: mysql://nova:unset@localhost/nova
         host: 192.0.2.5
-        metadata-proxy: false
+        metadata-proxy: true
       neutron:
         floatingip_end: 192.0.2.64
         floatingip_range: 192.0.2.0/24
